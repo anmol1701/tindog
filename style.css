@@ -1,0 +1,142 @@
+body
+{
+  font-family: 'Crimson Text';
+}
+#title{
+  background-color:#ff847c;
+
+}
+.navbar-brand
+{
+  font-size:2.3rem;
+  padding-bottom:6%;
+}
+.navbar-nav
+{
+  font-size:1.2rem;
+  padding-bottom: 6%;
+}
+h1
+{
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 1.5;
+  color:black;
+}
+.headfont
+{
+  font-family: 'Chelsea Market', cursive;
+}
+.container-fluid
+{
+  padding:3% 15%;
+
+}
+.row
+{
+  margin:0;
+}
+.aa
+{
+  right:30%;
+   transform: rotate(40deg);
+   position: absolute;
+
+}
+.sizeimg
+{
+  width:60%;
+}
+.downloadbutton
+{
+  margin:5% 3% 5% 0;
+}
+h3
+{
+  font-weight: bold;
+}
+p{
+  color:grey;
+}
+#features
+{
+  padding:7% 15%;
+background-color: #fff;
+position: relative;
+z-index: 1;
+}
+.feature-bo
+{
+  padding:4%;
+  text-align: center;
+}
+#testimonials
+{
+  background-color:#ff847c ;
+
+  text-align: center;
+}
+.carousel-item
+{
+  padding:4% 15%;
+}
+.testimg
+{
+  border-radius: 100%;
+  width:15%;
+  margin:20px;
+}
+h2
+{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+#press{
+  background-color:#ff847c ;
+  padding-bottom:4%;
+  text-align: center;
+}
+.pressimg
+{
+  width:15%;
+  margin:20px 20px 0;
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.p-c
+{
+  text-align: center;
+  padding-top:3%;
+  padding bottom:3%;
+}
+@media(max-width:1028px) {
+  .sizeimg
+  {
+    position: static;
+    transform: rotate(0);
+
+  }
+  #title{
+    text-align: center;
+
+  }
+}
+  #cta{
+    padding: 100px;
+    text-align: center;
+  }
+  .endhead
+  {
+    font-size: 4.5rem;
+    font-weight:bold;
+    line-height: 1;
+
+  }
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
